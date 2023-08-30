@@ -57,7 +57,7 @@ int main() {
             cout<< "mem  show memory usage, cpu show cpu usage , exit is exit" << endl;
         }
 
-        if (strcmp(command, "exit") == 0) {
+        else if (strcmp(command, "exit") == 0) {
             break; 
         } else if (strcmp(command, "cpu") == 0) {
             double cpuUsage = getCpuUsage();
@@ -74,6 +74,9 @@ int main() {
                 cout << line << endl;
             }
             meminfoFile.close();
+        }
+        else{
+            cout<<"unknown command"<<endl;
         }
     }
 
