@@ -58,6 +58,7 @@ int main() {
         }
 
         else if (strcmp(command, "exit") == 0) {
+            cout<< "exit" << endl;
             break; 
         } else if (strcmp(command, "cpu") == 0) {
             double cpuUsage = getCpuUsage();
