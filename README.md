@@ -1,2 +1,2 @@
 # SystemMonitor
-Program wyświetla zużycie cpu i memory w termianlu wpisz help by zobaczyć listę komend
+The program displays CPU and memory usage in the terminal. Type "help" to see a list of commands.
